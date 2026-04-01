@@ -1,0 +1,13 @@
+.userBox {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.userNameText {
+  color: #999;
+  margin-left: 20px;
+  font-size: 20px;
+  display: block;
+}
