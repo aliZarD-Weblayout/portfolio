@@ -1,0 +1,307 @@
+.card {
+  background-color: #fff;
+  border-radius: 7px;
+  display: flex;
+
+  flex-flow: row wrap;
+  position: relative;
+}
+button {
+  border: 0;
+}
+
+.alltext {
+  padding-top: 25px;
+  padding-left: 38px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin-right: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.metaData {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: 10px;
+}
+
+.createdAt {
+  margin-right: 5px;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 7px;
+}
+
+.dropdownOption {
+  width: 120px;
+  display: flex;
+}
+
+.dropDownOptionBtn svg {
+  margin-right: 6px;
+}
+
+.dropDownOptionBtn {
+  align-items: center;
+  display: flex;
+  transition: .3s ease-in-out;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 16px;
+}
+
+.dropDownOptionLast {
+  transition: .3s ease-in-out;
+}
+
+.dropDownOptionBtn svg path {
+  transition: .3s ease-in-out;
+}
+
+.dropDownOptionBtn:hover, .dropDownOptionBtn:focus-visible {
+  color: orange;
+}
+
+.dropDownOptionLast:hover, .dropDownOptionLast:focus-visible {
+  color: #000;
+}
+
+.dropDownOptionBtn:hover svg path, .dropDownOptionBtn:focus-visible svg path {
+  fill: orange;
+}
+
+.dropdownOption:not(:first-child) {
+  padding-top: 10px;
+}
+
+.dropdownOption:not(:last-child) {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.dropDownOptionLast {
+  align-items: center;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #D9D9D9;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 80px;
+  left: -419%;
+  border-radius: 5px;
+}
+
+.dropdownList {
+  box-shadow: 0px 0px 20px 0px #00000026;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.user {
+  display: flex;
+}
+
+.username {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #CC6633;
+}
+
+.createdAt, .createdAt * {
+  color: #999;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 7px 0 0;
+}
+
+.postLink {
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  max-width: 423px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.preview {
+  max-height: 107px;
+  max-width: 190px;
+}
+
+.previewImg {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.menuButton {
+  width: 31px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(51, 51, 51, 0.1);
+  border-radius: 100%;
+  border: 0;
+}
+
+.menuButton svg circle {
+  transition: .3s ease-in-out;
+}
+
+.menuButton:hover svg circle, .menuButton:focus-visible svg circle {
+  fill: orange;
+}
+
+.controls__number {
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.control__down, .control__up {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.controls__svgUp path, .controls__svgDown path {
+  transition: .3s ease-in-out;
+}
+
+.controls__svgUp:hover path {
+  fill: yellowgreen;
+}
+
+.controls__svgDown:hover path {
+  fill: red;
+}
+
+.controls {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.karmaCounter > * + * {
+  padding: 0 0 0 4px;
+}
+
+.karmaValue {
+  color: #c4c4c4;
+}
+
+svg.down {
+  transform: rotate(180deg);
+}
+
+.commentsButton {
+  display: flex;
+  align-items: normal;
+}
+
+.commentsButton * {
+  color: #c4c4c4;
+}
+
+.commentsNumber {
+  padding: 0 0 0 6px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.shareButton {
+  width: 20px;
+  height: 20px;
+}
+
+.saveButton {
+  width: 20px;
+  height: 20px;
+}
+
+.dropdownMenu {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px #00000026;
+}
+
+.dropdownList {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.dropdownListItem {
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  padding-left: 5px;
+}
+ 
+@media all and (min-width: 1540px) {
+  .card {
+    padding: 0 60px;
+  }
+
+  .textContent {
+    flex-basis: 672px;
+  }
+
+  .card:hover, card:focus-visible {
+    outline: 1px solid #d9d9d9;
+  }
+
+  .userLink:hover a {
+    text-decoration: underline;
+  }
+
+  .menuButton:hover {
+    background-color: rgba(51, 51, 51, 0.1);
+  }
+
+  .karmaCounter > button.up:hover >svg > path {
+    fill: #A4CC33;
+  }
+
+  .karmaCounter > button.down:hover >svg > path {
+    fill: #CC6633;
+  }
+} 
